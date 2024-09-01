@@ -5,16 +5,23 @@ If you run into any trouble with the setup/code or have any questions please con
 
 ## ARCHIVE CONTENTS [for prize submission]
 
-[TBA]
 submission.tar.gz : original kaggle model upload from winning submission
-
-source_code.zip : a zip copy of all code and documentation from https://github.com/andrewtratz/llm20questions/
 
 README.md : this file
 
 requirements.txt : results of pip freeze (for offline keyword preprocessing)
 
-directory_structure.txt : 
+directory_structure.txt : full directory structure
+
+LICENSE : open source license
+
+entry_points.md : list of entry points (for data preprocessing)
+
+process_keywords.py : keyword preprocessing script
+
+prompts.py : Prompter class module
+
+SETTINGS.json : directory used for output data
 
 ## HARDWARE:
 
