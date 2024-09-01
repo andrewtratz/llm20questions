@@ -3,6 +3,10 @@ from tqdm import tqdm
 import json
 import transformers
 import csv
+import os
+
+with open('SETTINGS.json', 'r') as file:
+    SETTINGS = json.load(file)
 
 transformers.logging.set_verbosity_error()
 
@@ -60,7 +64,7 @@ for i, entry in tqdm(zip(range(0, len(entries)), entries)):
         and entry[0] not in manual_exclusions:
         valid.append(entry)
 
-with open('my_freq.csv', 'w') as myfile:
+with open(os.path.join(SETTINGS['OUTPUT_DATA_DIR'], my_freq.csv'), 'w') as myfile:
     for entry in valid: 
         myfile.write(','.join(entry))
 
