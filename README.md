@@ -33,7 +33,7 @@ Ubuntu 22.04.3 LTS
 
 30 CPU cores, 205.4 GB RAM, 525.8 GB SSD [Lambda Labs instance]
 
-1 x NVIDIA A100 (48 GB)
+1 x NVIDIA A100 (40 GB)
 
 #### Submission preparation instance
 
