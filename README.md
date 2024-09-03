@@ -87,7 +87,7 @@ This will output a file named my_freq.csv. This file can be uploaded to Kaggle a
 
 1) Load llm-20-questions-solutions.ipynb into a Kaggle notebook with Internet on and 2xT4 GPUs
 2) Add the following datasets to the Kaggle notebook:
-   * https://www.kaggle.com/datasets/jademonk/frequencies
+   * https://www.kaggle.com/datasets/jademonk/keyword-list
    * https://www.kaggle.com/datasets/canming/llama-3-1-8b-instruct
    * https://www.kaggle.com/datasets/jademonk/frequencies
 3) Run the Kaggle notebook
