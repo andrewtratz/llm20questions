@@ -23,6 +23,8 @@ prompts.py : Prompter class module
 
 SETTINGS.json : directory used for output data
 
+llm-20-questions-solution.ipynb: A Kaggle notebook equivalent to the final submission, with additional comments added [actual submission notebook included in submission.tar.gz]
+
 ## HARDWARE:
 
 #### Data preprocessing instance
