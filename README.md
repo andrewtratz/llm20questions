@@ -58,7 +58,7 @@ Create a login token for Huggingface CLI at https://huggingface.co/settings/toke
 
 ## DATA SETUP (ON PREPROCESSING INSTANCE)
 
-### below are the shell commands used in each step, as run from the project directory. Assumes Kaggle command line already installed.
+### below are the shell commands used in each step, as run from the project directory. 
 
 pip install -r requirements.txt  
 
@@ -66,6 +66,8 @@ huggingface-cli login
 ** Note: must supply valid login token at the prompt
 
 huggingface-cli download meta-llama/Meta-Llama-3-8B-Instruct
+
+pip install kaggle
 
 kaggle datasets download -d rtatman/english-word-frequency
 
