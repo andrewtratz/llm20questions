@@ -64,7 +64,7 @@ for i, entry in tqdm(zip(range(0, len(entries)), entries)):
         and entry[0] not in manual_exclusions:
         valid.append(entry)
 
-with open(os.path.join(SETTINGS['CLEAN_DATA_DIR'], my_freq.csv'), 'w') as myfile:
+with open(os.path.join(SETTINGS['CLEAN_DATA_DIR'], 'my_freq.csv'), 'w') as myfile:
     for entry in valid: 
         myfile.write(','.join(entry))
 
