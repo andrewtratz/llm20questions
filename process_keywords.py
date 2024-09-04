@@ -14,7 +14,7 @@ file1 = open('unigram_freq.csv', 'r')
 Lines = file1.readlines()
 
 entries = []
-for line in Lines[1:100]:
+for line in Lines[1:]:
     entries.append(line.split(','))
 
 # Instantiate the LLM
